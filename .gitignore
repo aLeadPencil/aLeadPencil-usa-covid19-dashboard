@@ -1,5 +1,5 @@
 __pycache__
-*.txt
+todo.txt
 .env
 update_db.py
 create_db.py
