@@ -28,9 +28,7 @@ app = dash.Dash(
 
 
 # Connect to Database
-SQLALCHEMY_DATABASE_URI = 'postgresql://postgres:PlsWrk123!@localhost/test-app4789'
-app.server.config["SQLALCHEMY_DATABASE_URI"] = SQLALCHEMY_DATABASE_URI
-# app.server.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://kjknwxubymslie:86d99d26f810414bf8b82c2813dcdd9bd1987bcd6d36a075ee979c396e4e65a7@ec2-34-193-235-32.compute-1.amazonaws.com:5432/d53c1rrm6cmp71'
+app.server.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://kjknwxubymslie:86d99d26f810414bf8b82c2813dcdd9bd1987bcd6d36a075ee979c396e4e65a7@ec2-34-193-235-32.compute-1.amazonaws.com:5432/d53c1rrm6cmp71'
 app.server.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app.server)
 
