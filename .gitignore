@@ -1,0 +1,5 @@
+__pycache__
+*.txt
+.env
+update_db.py
+create_db.py
