@@ -188,7 +188,7 @@ def database_updater():
 
     return None
 
-# database_updater()
+database_updater()
 
 
 if __name__ == '__main__':
