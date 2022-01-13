@@ -55,7 +55,7 @@ source_card = dbc.Card(
                     children=[
                         dcc.Link(
                             'GitHub',
-                            href='https://www.github.com',
+                            href='https://github.com/aLeadPencil/aLeadPencil-usa-covid19-dashboard',
                             target='_blank',
                             style={'text-decoration': 'none', 'color': 'white'}
                         )
