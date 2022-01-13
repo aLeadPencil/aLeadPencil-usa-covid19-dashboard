@@ -17,7 +17,6 @@ app = dash.Dash(
     server = server,
     external_stylesheets=[dbc.themes.SIMPLEX],
     suppress_callback_exceptions=True,
-    # prevent_initial_callbacks=True,
     meta_tags=[
         {
             "name": "viewport",
@@ -104,6 +103,7 @@ def find_all_raw_urls(github_url, base_url):
         raw_urls.append(raw_url)
         
     return extracted_dates, raw_urls
+
 
 def fill_database(connection, extracted_dates, raw_urls):
     '''
