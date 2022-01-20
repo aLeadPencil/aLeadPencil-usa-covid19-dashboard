@@ -7,7 +7,7 @@
 
 ### Working Demo (May take a minute or so to load): https://usa-covid19-dashboard.herokuapp.com/
 
-### Tools/Languages: Python, HTML/CSS, Bootstrap, Dash, Plotly, Pandas, Flask, SQLAlchemy, BeautifulSoup
+### Tools/Languages: Python, PostgreSQL, HTML/CSS, Bootstrap, Dash, Plotly, Pandas, Flask, SQLAlchemy, BeautifulSoup
 
 
 
