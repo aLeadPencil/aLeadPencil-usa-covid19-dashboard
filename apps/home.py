@@ -10,7 +10,6 @@ SELECT
     *
 FROM
     covid_data
-LIMIT 100
 '''
 df = pd.read_sql(sql = sql_query, con = db.engine)
 df = df.drop(['Id'], axis=1)
